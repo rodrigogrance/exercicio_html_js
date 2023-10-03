@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="container">
+            <form id="meuForm">
+                <h1>Validação de Formulário</h1>
+                <label for="campoA">Campo A: </label>
+                <input type="number" id="campoA" required><br><br>
+                <label for="campoB">Campo B: </label>
+                <input type="number" id="campoB" required><br><br>
+                <input type="button" class="button" value="Submeter" onclick="submeter()">
+                <div id="res"></div>
+            </form>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
